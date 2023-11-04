@@ -1970,42 +1970,42 @@ void MakeSomeLove(float Time) {
   aControls[i*6+0].y = 14.f;
   aControls[i*6+0].z = 0.5f;
   aControls[i*6+0].rhw = 1.0f;
-  aControls[i*6+0].u = (g_bRepeat)?.5f:0.f;
+  aControls[i*6+0].u = ((g_bRepeat)?.5f:0.f) + 0.05f;
   aControls[i*6+0].v = ((g_bControlHoverstate[i])?0.5f:0.0f) + 0.05f;
   
   aControls[i*6+1].x = 420.f;
   aControls[i*6+1].y = 14.f;
   aControls[i*6+1].z = 0.5f;
   aControls[i*6+1].rhw = 1.0f;
-  aControls[i*6+1].u = (g_bRepeat)?1.f:.5f;
+  aControls[i*6+1].u = ((g_bRepeat)?1.f:.5f) + 0.05f;
   aControls[i*6+1].v = ((g_bControlHoverstate[i])?0.5f:0.0f) + 0.05f;
 
   aControls[i*6+2].x = 420.f;
   aControls[i*6+2].y = 14.f + 9.f;
   aControls[i*6+2].z = 0.5f;
   aControls[i*6+2].rhw = 1.0f;
-  aControls[i*6+2].u = (g_bRepeat)?1.f:.5f;
+  aControls[i*6+2].u = ((g_bRepeat)?1.f:.5f) + 0.05f;
   aControls[i*6+2].v = ((g_bControlHoverstate[i])?1.0f:0.5f) + 0.05f;
 
   aControls[i*6+3].x = 410.f;
   aControls[i*6+3].y = 14.f;
   aControls[i*6+3].z = 0.5f;
   aControls[i*6+3].rhw = 1.0f;
-  aControls[i*6+3].u = (g_bRepeat)?.5f:0.f;
+  aControls[i*6+3].u = ((g_bRepeat)?.5f:0.f) + 0.05f;
   aControls[i*6+3].v = ((g_bControlHoverstate[i])?0.5f:0.0f) + 0.05f;
 
   aControls[i*6+4].x = 420.f;
   aControls[i*6+4].y = 14.f + 9.f;
   aControls[i*6+4].z = 0.5f;
   aControls[i*6+4].rhw = 1.0f;
-  aControls[i*6+4].u = (g_bRepeat)?1.f:.5f;
+  aControls[i*6+4].u = ((g_bRepeat)?1.f:.5f) + 0.05f;
   aControls[i*6+4].v = ((g_bControlHoverstate[i])?1.0f:0.5f) + 0.05f;
 
   aControls[i*6+5].x = 410.f;
   aControls[i*6+5].y = 14.f + 9.f;
   aControls[i*6+5].z = 0.5f;
   aControls[i*6+5].rhw = 1.0f;
-  aControls[i*6+5].u = (g_bRepeat)?.5f:0.f;
+  aControls[i*6+5].u = ((g_bRepeat)?.5f:0.f) + 0.05f;
   aControls[i*6+5].v = ((g_bControlHoverstate[i])?1.0f:0.5f) + 0.05f;
 
   pControlsVB->Unlock();
